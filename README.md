@@ -1,2 +1,2 @@
 # Portfolio-website
-Portfolio of my work
+My portfolio thus far.
