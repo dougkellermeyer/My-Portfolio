@@ -1,0 +1,63 @@
+html,body {
+margin: 0px;
+padding: 0px;
+height: 100%;
+width: 100%;
+}
+
+.jumbotron {
+margin-top: 0 px;
+background-size: cover;
+position: relative;
+}
+
+#landing-page{
+background-image: url(https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg?auto=compress&cs=tinysrgb&h=1200&w=1920);
+
+height: 100%;
+width: 100%;
+z-index: 1000;  
+margin: auto;
+position: absolute;
+display: table;
+background-size: cover;
+}
+
+.inner {
+vertical-align: middle;
+width: 100%;
+max-width: none;
+text-align: center;
+color: rgb(118, 119, 119);
+margin: 0 auto;
+padding-top: 10%;
+font-family: 'Raleway', sans-serif;
+}
+
+#landing-page .inner h1{
+font-family: 'Raleway', sans-serif;
+font-size: 600%;
+font-weight: 100;
+color: rgb(118, 119, 119);
+line-height: 75%;
+}
+
+#front-button{
+position: relative;
+font-family: 'Raleway', sans-serif;
+font-size: 135%;
+font-weight: 400;
+color: rgb(50, 53, 52); 
+border:solid rgb(70, 85, 78);
+border-width: 2px;
+text-transform: uppercase;
+text-decoration: none;
+padding: 10px 20px;
+border-radius: 9px;
+background-color: transparent;
+}   
+#front-button:hover{
+color: rgb(118, 119, 119);
+border: solid rgb(118, 119, 119);
+}
+
