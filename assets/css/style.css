@@ -82,6 +82,12 @@ background-color: transparent;
 position: absolute;
 }
 
+/*How do I apply the hover property I did for the #front-button*/
+.caption .btn-primary:hover{
+color: rgb(118, 119, 119);
+border: solid rgb(118, 119, 119);
+}
+
 .caption p{
 position: absolute;
 }
