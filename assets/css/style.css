@@ -5,10 +5,18 @@ height: 100%;
 width: 100%;
 }
 
+#home h1{
+margin-top: 0px;
+}
+
 .jumbotron {
 margin-top: 0 px;
 background-size: cover;
 position: relative;
+}
+
+#home-nav{
+margin-bottom: 0px;
 }
 
 #landing-page{
@@ -66,11 +74,17 @@ font-family: 'Raleway', sans-serif;
 height:100%;
 width: 100%;
 margin: auto;
-position: relative;
 background-size: cover;
 }
 
-.caption .btn-primary{
+.caption{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caption .btn-primary {
 color: rgb(50, 53, 52); 
 border:solid rgb(70, 85, 78);
 border-width: 2px;
@@ -79,16 +93,15 @@ text-decoration: none;
 padding: 10px 20px;
 border-radius: 9px;
 background-color: transparent;
-position: absolute;
+margin-bottom: 20px;
 }
 
-/*How do I apply the hover property I did for the #front-button*/
+/*How do I apply the hover property like I did for the #front-button*/
 .caption .btn-primary:hover{
-color: rgb(118, 119, 119);
+background-color: rgb(118, 119, 119);
 border: solid rgb(118, 119, 119);
 }
 
-.caption p{
-position: absolute;
+.captain p{
+    text-align: center;
 }
-
