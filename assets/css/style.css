@@ -122,6 +122,11 @@ border: solid rgb(118, 119, 119);
     justify-content: space-around;
 }
 
+#aboutHeader h1{
+font-size: 600%;
+font-weight: 100;
+}
+
 #headshot{
 height: 200px;
 width: 200px;
