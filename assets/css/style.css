@@ -119,5 +119,34 @@ border: solid rgb(118, 119, 119);
     flex-direction: column;
     align-items: center;
     background-size: cover;
+    justify-content: space-around;
 }
 
+#headshot{
+height: 200px;
+width: 200px;
+opacity: 0.89;
+flex-flow: row wrap;
+}
+
+#bio{
+display:flex;
+font-family: 'Raleway', sans-serif;
+font-size: 1.25em;
+max-width: 800px;
+flex-flow: row wrap;
+
+}
+
+#connect{
+font-family: 'Raleway', sans-serif;
+align-items: center;
+flex-flow: row wrap;
+}
+
+.sidebar{
+margin-bottom: 50px;
+font-family: 'Raleway', sans-serif;
+color: white;
+align-items: center;
+}
