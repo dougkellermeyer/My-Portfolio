@@ -99,7 +99,7 @@ margin-bottom: 20px;
 /*How do I apply the hover property like I did for the #front-button*/
 .caption .btn-primary:hover{
 background-color: rgb(118, 119, 119);
-border: solid rgb(118, 119, 119);
+border: 2px solid rgb(118, 119, 119);
 }
 
 .captain p{
@@ -154,4 +154,9 @@ margin-bottom: 50px;
 font-family: 'Raleway', sans-serif;
 color: white;
 align-items: center;
+}
+
+#github {
+font-family: 'Raleway', sans-serif;
+color:white;
 }
