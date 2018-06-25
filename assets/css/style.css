@@ -105,14 +105,6 @@ border: 2px solid rgb(118, 119, 119);
 .captain p{
     text-align: center;
 }
-.dropbtn {
-    align-items: left;
-    background-color:none;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    }
 
 #aboutHeader {
     background-image: url(https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg?auto=compress&cs=tinysrgb&h=1200&w=1920);
@@ -188,6 +180,15 @@ width: 35px;
 height: 5px;
 background-color: black;
 margin: 6px 0;
+}
+
+.dropbtn {
+align-items: left;
+background-color:none;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
 }
 
 .dropdown {
