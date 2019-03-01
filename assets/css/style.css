@@ -109,7 +109,7 @@ border: 2px solid rgb(118, 119, 119);
 #aboutHeader {
     background-image: url(https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg?auto=compress&cs=tinysrgb&h=1200&w=1920);
     font-family: 'Raleway', sans-serif;
-    color: white;
+    color:  rgba(112, 111, 111, 0.904);
     margin-top: 0px;
     height:100%;
     width: 100%;
@@ -124,6 +124,11 @@ border: 2px solid rgb(118, 119, 119);
 #aboutHeader h1{
 font-size: 600%;
 font-weight: 100;
+margin-left: 25%;
+}
+
+.panel.panel-default {
+    opacity: 0.8;
 }
 
 #headshot{
@@ -135,7 +140,7 @@ opacity: 0.89;
 #bio{
 display:flex;
 font-family: 'Raleway', sans-serif;
-color: white;
+color:  rgba(112, 111, 111, 0.904);
 font-size: 1.25em;
 max-width: 800px;
 flex-flow: row wrap;
